@@ -1,0 +1,21 @@
+[
+  {
+    "groups":[
+      {
+        "name":"Itme1:示例",
+        "classes":[
+          "basic：示例1"
+        ]
+      },
+      {
+        "name":"Entity:数据加载",
+        "classes":[
+          "addItem1:添加项目",
+          "addItem2:添加项目2",
+          "addItem3:添加项目3",
+          "addItem4:添加项目4"
+        ]
+      }
+    ]
+  }
+]

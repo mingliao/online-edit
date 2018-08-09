@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线编辑</title>
+    <link rel="stylesheet" href="assets/css/font-awesome/font-awesome.min.css"/>
+    <link rel="stylesheet" href="assets/css/Aimara.css"/>
+    <link rel="stylesheet" href="libs/scroll/optiscroll.css"/>
+    <link rel="stylesheet" href="libs/codemirror/codemirror.css"/>
+    <link rel="stylesheet" href="assets/css/index.css"/>
+</head>
+<body>
+    <div id="main" class="wrap">
+        <div class="nav">
+            <div class="nav-wrap">
+                <div class="logo">
+                    <a href="">
+                        <img src="assets/images/logo.png" alt="">
+                        <span>标题</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="edit-main">
+            <div class="edit-setting">
+                <div class="aside-tree optiscroll" id="aside-tree">
+                    <div class="tree-wrap" id="tree-wrap">
+                        <div id="tree-div"></div>
+                    </div>
+                </div>
+                <div id="left-area">
+                    <div class="copy-message">
+                        <i>☺</i>
+                        已添加到剪切板
+                    </div>
+                    <div class="edit-tool">
+                        <i id="rerun" class="fa fa-play-circle" title="运行"></i>
+                        <i class="fa fa-refresh" id="refresh" title="重置"></i>
+                        <i class="fa fa-copy" id="copy" title="复制"></i>
+                    </div>
+                    <textarea id="codeEdit"  style="height:100%;background: none;outline: none;border:none;overflow:hidden;"></textarea>
+                </div>
+                <div id="right-area">
+                    <div>
+                        <div class="iframe-mask"></div>
+                        <iframe frameborder="0" src="about:blank" id="map-iframe"  name="map-iframe" ></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="libs/jquery-2.1.4/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="libs/clipboard/clipboard.js"></script>
+    <script type="text/javascript" src="libs/splite/js/split.js"></script>
+    <script type="text/javascript" src="libs/aimara/Aimara.js"></script>
+    <script type="text/javascript" src="libs/scroll/optiscroll.min.js"></script>
+    <script type="text/javascript" src="libs/codemirror/codemirror.js"></script>
+    <script type="text/javascript" src="libs/codemirror/xml.js"></script>
+    <script type="text/javascript" src="libs/codemirror/javascript.js"></script>
+    <script type="text/javascript" src="libs/codemirror/css.js"></script>
+    <script type="text/javascript" src="libs/codemirror/vbscript.js"></script>
+    <script type="text/javascript" src="libs/codemirror/htmlmixed.js"></script>
+
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
